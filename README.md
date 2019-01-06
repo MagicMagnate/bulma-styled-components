@@ -16,3 +16,6 @@ npm install bulma-styled-components
 ```
 yarn add bulma-styled-components
 ```
+
+Workaround for activating Navbar.Menu.
+See https://github.com/mpaupulaire4/bulma-styled-components/issues/12
