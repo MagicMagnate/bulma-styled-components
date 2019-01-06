@@ -290,7 +290,7 @@ export const NavbarEnd = styled.div`
 NavbarEnd.defaultProps = defaultProps
 
 export const NavbarMenu = styled.nav`
-  display: none;
+  display: ${props => props.activating_active ? "block" : "none"};
   ${touch`
     background-color: ${fromTheme('navbar-background-color')};
     box-shadow: 0 8px 16px ${({ theme }) => rgba(theme['black'], 0.1)};
